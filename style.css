@@ -1,0 +1,106 @@
+
+
+*{
+	box-sizing: : box-sizing;
+	background: black;
+}
+
+/* Basic */
+
+.grid-container {
+  display: grid;
+}
+
+.grid-item{
+  padding: 15px;
+	border:5px solid black;
+}
+
+
+/* Colors */
+
+.black {
+	background-color: black;
+}
+
+.white {
+	background-color: white;
+}
+
+.red { 
+	background-color: #D12323;
+ }
+
+.yellow {
+	background-color: #FBF15E;
+}
+
+.blue {
+	background-color: #132EB6;
+}
+
+.grey {
+	background-color: #A2A2A2;
+}
+
+/* Parts locations */
+
+.item1 {
+	grid-column: 1/3;
+	height: 33.32;
+}
+.item2 {
+	grid-column: 3/7;
+	height: 33.32%;
+}
+.item3{
+	grid-column: 7/11 ;
+	height: 8.33%;
+}
+.item4{
+	grid-column: 11/13;
+	height: 33.32%;
+}
+.item5{
+	grid-column: 7/9;
+	grid-row: 2;
+    height: 26%;
+}
+.item6{
+	grid-column: 9/11;
+	grid-row: 2;
+    height: 26%;
+}
+.item7{
+	grid-column: 1/4;
+	grid-row:5;
+	height: 16.66%;
+}
+.item8{
+	grid-column: 4/11;
+	grid-row:5;
+	height: 16.66%;
+}
+.item9{
+	grid-column: 11/13;
+	grid-row: 4;
+	height: 66.68%;
+}
+.item10{
+	grid-column: 1/4;
+	grid-row: 7;
+	height: 41.65%;
+}
+.item11{
+	grid-column: 4/5;
+	grid-row:7;
+	height: 41.65%;
+}
+.item12{
+	grid-column: 5/11;
+	grid-row:7;
+	height: 41.65%;
+}
+
+
+
