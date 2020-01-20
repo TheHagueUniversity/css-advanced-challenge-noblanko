@@ -1,7 +1,7 @@
 
 
 *{
-	box-sizing: : box-sizing;
+	box-sizing: box-sizing;
 }
 
 
@@ -19,7 +19,7 @@ body {
 
 .grid-item{
   padding: 15px;
-	border:5px solid black;
+	border: 5px solid black;
 }
 
 
@@ -226,7 +226,7 @@ body {
 
 /* Small */
 
-@media (min-width: 1200px){
+@media (max-width: 991px){
 	.item1-sm, .item2-sm, .item3-sm, .item4-sm,
 	 .item5-sm, .item6-sm, .item7-sm, .item8-sm, 
 	 .item9-sm, .item10-sm, .item11-sm, .item12-sm {
